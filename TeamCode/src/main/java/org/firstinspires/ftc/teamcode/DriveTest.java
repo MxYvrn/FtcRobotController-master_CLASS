@@ -17,7 +17,7 @@ public class DriveTest extends LinearOpMode {
     DcMotor RIGHTMOTOR;
     DcMotor INTAKEMOTOR;
     DcMotor SHOOTERMOTOR;
-    Servo SERVO;
+    CRServo SERVO;
 
 
     @Override
@@ -28,7 +28,7 @@ public class DriveTest extends LinearOpMode {
         RIGHTMOTOR = hardwareMap.get(DcMotor.class, "MotorRight");
         INTAKEMOTOR = hardwareMap.get(DcMotor.class, "IntakeMotor");
         SHOOTERMOTOR = hardwareMap.get(DcMotor.class, "ShooterMotor");
-        SERVO = hardwareMap.get(Servo.class, "Servo");
+        SERVO = hardwareMap.get(CRServo.class, "Servo");
         
         waitForStart();
 

@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
 
 @TeleOp(name="CodeFrame", group="TeleOp")
-public class CodeFrame extends LinearOpMode {
+public class TeleOP extends LinearOpMode {
 
     // hardware declerations
     DcMotor LEFTMOTOR;
@@ -30,6 +30,7 @@ public class CodeFrame extends LinearOpMode {
 
         // code goes here
         while (opModeIsActive()) {
+            
             
             break;
         }
